@@ -2,7 +2,7 @@
 // is governed by a BSD-style license that can be found in the LICENSE file.
 library my_project.web.index;
 
-import 'package:dart_cc_outline/dart_cc.dart';
+import 'package:dart_polymer_cc_appeng/dart_cc.dart';
 import 'package:polymer/polymer.dart';
 
 /// [MainApp] used!

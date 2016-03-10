@@ -1,7 +1,7 @@
 // Copyright (c) 2016, <your name>. All rights reserved. Use of this source code
 // is governed by a BSD-style license that can be found in the LICENSE file.
 @HtmlImport('dart_cc.html')
-library dart_cc_outline.lib.main_app;
+library dart_polymer_cc_appeng.lib.main_app;
 
 import 'dart:html';
 

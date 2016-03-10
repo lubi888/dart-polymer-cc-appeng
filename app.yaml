@@ -1,0 +1,13 @@
+# Copyright (c) 2014, the Dart project authors.  Please see the AUTHORS file
+# for details. All rights reserved. Use of this source code is governed by a
+# BSD-style license that can be found in the LICENSE file.
+version:
+#version: clientserver     -to be left blank otherwise gcloud error deploying
+runtime: custom
+vm: true #false
+api_version: 1
+
+#env_variables:      -run ifconfig
+# DART_PUB_SERVE:  'http://127.0.0.1:7777'
+# DART_PUB_SERVE:  'http://172.17.0.1:7777'   docker
+# DART_PUB_SERVE:  'http://localhost:8080'

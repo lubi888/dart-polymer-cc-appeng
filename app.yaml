@@ -9,5 +9,5 @@ api_version: 1
 
 #env_variables:      -run ifconfig
 # DART_PUB_SERVE:  'http://127.0.0.1:7777'
-# DART_PUB_SERVE:  'http://172.17.0.1:7777'   docker
+# DART_PUB_SERVE:  'http://172.17.0.1:7777'   docker linux
 # DART_PUB_SERVE:  'http://localhost:8080'

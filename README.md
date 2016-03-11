@@ -3,9 +3,11 @@ Dart Polymer Credit Cart Outline Component with AppEng.
 
 Should work with 'pub serve' && build locally using dev_pyserv && on AppEng
 
+Design outline.
+
 Build & Deploy Locally:
-    pub Get,
-    pub Serve,
+    pub get,
+    pub serve,
     pub build web
 
 Build Locally using Python:

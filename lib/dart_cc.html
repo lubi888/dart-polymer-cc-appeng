@@ -11,12 +11,6 @@
   </style>
 
   <template>
-    <!--<paper-input label="Type something..." value="{{text}}"></paper-input>-->
-    <!--<p>-->
-    <!--Text: <span>{{text}}</span><br />-->
-    <!--Reversed: <span>{{reverseText(text)}}</span>-->
-    <!--</p>-->
-
     <h3>CC layout</h3>
     <h5>Personal Contacts</h5>
     <div class="vertical-section">
@@ -24,7 +18,7 @@
       <paper-input label="address?" value="{{nameAddress}}"></paper-input>
       <gold-email-input auto-validate label="custom regex, needs to ends in .suffix"
                         regex='^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+.suffix$'
-                        value="x@y.z ">  <!--v </gold-email-input>&ndash;&gt;-->
+                        value="x@y.z ">
       </gold-email-input>
       <gold-phone-input
               label="France phone number"
@@ -55,7 +49,7 @@
       <!--<p class="responsetext"> {{serverResponse}} </p>-->
     </div>
     <div>--------------------</div>
-
+    <div><h3>Sandbox</h3></div>
     <div>
       <label>Which Card Type?</label>
       <select selectedIndex="{{theData['music']}}">
@@ -66,6 +60,7 @@
       </select>
     </div>
     <div class="entry">
+      <!-- from Slambook e.g.-->
       <label>Favorite things?</label>
       <input type="checkbox" checked="{{favoriteThings['Visa']}}" id="Visa">
       <label for="Visa" class="andrews">Visa</label>
@@ -75,9 +70,6 @@
       <label for="mittens" class="andrews">PayPal</label>
       <input type="checkbox" checked="{{favoriteThings['kettles']}}" id="kettles">
       <label for="kettles" class="andrews">Stripe</label>
-    </div>
-    <div>
-      <h2>End of CC Input. Tks.</h2>
     </div>
   </template>
 </dom-module>

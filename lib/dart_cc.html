@@ -1,15 +1,9 @@
-<!--
-  Copyright (c) 2016, <your name>. All rights reserved. Use of this source code
-  is governed by a BSD-style license that can be found in the LICENSE file.
--->
-
 <dom-module id="dart-cc">
   <style>
     :host {
     display: block;
     }
   </style>
-
   <template>
     <h3>CC layout</h3>
     <h5>Personal Contacts</h5>
@@ -41,14 +35,12 @@
       <gold-cc-expiration-input auto-validate  label="cc exp: mnth yr "></gold-cc-expiration-input>
       <gold-cc-cvc-input auto-validate value="xxx for most cards, xxxx for Amex"></gold-cc-cvc-input>
     </div>
-
     <div class="submitarea">
       <input type="submit" value="Submit" on-click="{{submitForm}}">
       <input type="reset"  value="Clear"  on-click="{{resetForm}}"> <br>
-      <!--<textarea disabled class="responsetext" value="{{serverResponse}}"></textarea>-->
-      <!--<p class="responsetext"> {{serverResponse}} </p>-->
     </div>
     <div>--------------------</div>
+
     <div><h3>Sandbox</h3></div>
     <div>
       <label>Which Card Type?</label>
@@ -73,3 +65,4 @@
     </div>
   </template>
 </dom-module>
+s

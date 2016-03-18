@@ -1,7 +1,8 @@
 // Copyright (c) 2016, <your name>. All rights reserved. Use of this source code
 // is governed by a BSD-style license that can be found in the LICENSE file.
 @HtmlImport('dart_cc.html')
-library dart_polymer_cc_appeng.lib.main_app;
+library dart_cc_outline.lib.dart_cc;
+//library my_project.web.index;   my_project?
 
 import 'dart:html';
 import 'package:polymer/polymer.dart';
@@ -19,8 +20,21 @@ import 'package:polymer_elements/paper_tab.dart';
 
 /// Uses [PaperInput]
 @PolymerRegister('dart-cc')
-class MainApp extends PolymerElement {
+class DartCC extends PolymerElement {
 
-  /// Constructor used to create instance of MainApp.
-  MainApp.created() : super.created();
+  /// Constructor used to create instance of DartCC.
+  DartCC.created() : super.created();
+
+  @property
+  String greeting = 'Hello! Please enter you CC details.';
+
+//  void ready() {
+//    text ="My element Dart - CC";
+//  }
+}
+
+/// [DartCC] used!
+main() async {
+  await initPolymer();
+  //var el1 = document.createElement('dart-cc');
 }

@@ -2,23 +2,25 @@
 // is governed by a BSD-style license that can be found in the LICENSE file.
 @HtmlImport('dart_address.html')
 //library dart_polymer_cc_appeng.lib.main_app;
-library dart_polymer_cc_appeng.lib.dart_address;  //works on any name?
+library dart_polymer_cc_appeng.lib.dart_address;  //works on any name? lib.dar_address?
 
 import 'dart:html';
 import 'package:polymer/polymer.dart';
 import 'package:web_components/web_components.dart';
-//import 'package:polymer_elements/gold_email_input.dart';
-//import 'package:polymer_elements/gold_phone_input.dart';
+
+import 'package:polymer_elements/paper_input.dart';
+
+import 'package:polymer_elements/gold_email_input.dart';
+import 'package:polymer_elements/gold_phone_input.dart';
+import 'package:polymer_elements/gold_zip_input.dart';
+
 // import 'package:polymer_elements/gold_cc_cvc_input.dart';
 // import 'package:polymer_elements/gold_cc_expiration_input.dart';
 // import 'package:polymer_elements/gold_cc_input.dart';
-//import 'package:polymer_elements/gold_zip_input.dart';
-import 'package:polymer_elements/paper_input.dart';
-//import 'package:polymer_elements/paper_dropdown_menu.dart';
 //import 'package:polymer_elements/paper_tabs.dart';
 //import 'package:polymer_elements/paper_tab.dart';
 
-/// Uses [PaperInput]
+/// Uses [PaperInput]    ?
 @PolymerRegister('dart-address')
 class DartAddress extends PolymerElement {
 

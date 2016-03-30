@@ -9,22 +9,22 @@
     <div>{{greeting}}</div>
     <!--<div>[[greeting]]</div> //check 2 way binding-->
 
-    <h5>Personal Contacts</h5>
-    <div class="vertical-section">
-      <paper-input label="What is your name, if you please?" value="{{text}}"></paper-input>
-      <paper-input label="address?" value="{{nameAddress}}"></paper-input>
-      <gold-email-input auto-validate label="custom regex, needs to ends in .suffix"
-                        regex='^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+.suffix$'
-                        value="x@y.z ">
-      </gold-email-input>
-      <gold-phone-input
-              label="France phone number"
-              country-code="33"
-              phone-number-pattern="X-XX-XX-XX-XX"
-              auto-validate>
-      </gold-phone-input>
-      <gold-phone-input label="Valid US number" value="415-111-1111" auto-validate></gold-phone-input>
-      <gold-zip-input auto-validate label="zip code"></gold-zip-input>
+    <!--<h5>Personal Contacts</h5>-->
+    <!--<div class="vertical-section">-->
+      <!--<paper-input label="What is your name, if you please?" value="{{text}}"></paper-input>-->
+      <!--<paper-input label="address?" value="{{nameAddress}}"></paper-input>-->
+      <!--<gold-email-input auto-validate label="custom regex, needs to ends in .suffix"-->
+                        <!--regex='^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+.suffix$'-->
+                        <!--value="x@y.z ">-->
+      <!--</gold-email-input>-->
+      <!--<gold-phone-input-->
+              <!--label="France phone number"-->
+              <!--country-code="33"-->
+              <!--phone-number-pattern="X-XX-XX-XX-XX"-->
+              <!--auto-validate>-->
+      <!--</gold-phone-input>-->
+      <!--<gold-phone-input label="Valid US number" value="415-111-1111" auto-validate></gold-phone-input>-->
+      <!--<gold-zip-input auto-validate label="zip code"></gold-zip-input>-->
 
       <h5>CC Details</h5>
       <paper-dropdown-menu label="Credit Card Type" value={{}}>
@@ -44,27 +44,27 @@
     </div>
     <div>--------------------</div>
 
-    <div><h3>Sandbox</h3></div>
-    <div>
-      <label>Which Card Type?</label>
-      <select selectedIndex="{{theData['music']}}">
-        <option>Visa</option>
-        <option>MC</option>
-        <option>Amex</option>
-        <option>PayPal</option>
-      </select>
-    </div>
-    <div class="entry">
-      <!-- from Slambook e.g.-->
-      <label>Favorite things?</label>
-      <input type="checkbox" checked="{{favoriteThings['Visa']}}" id="Visa">
-      <label for="Visa" class="andrews">Visa</label>
-      <input type="checkbox" checked="{{favoriteThings['raindrops']}}" id="raindrops">
-      <label for="raindrops" class="andrews">MC</label>
-      <input type="checkbox" checked="{{favoriteThings['mittens']}}" id="mittens">
-      <label for="mittens" class="andrews">PayPal</label>
-      <input type="checkbox" checked="{{favoriteThings['kettles']}}" id="kettles">
-      <label for="kettles" class="andrews">Stripe</label>
-    </div>
+    <!--<div><h3>Sandbox</h3></div>-->
+    <!--<div>-->
+      <!--<label>Which Card Type?</label>-->
+      <!--<select selectedIndex="{{theData['music']}}">-->
+        <!--<option>Visa</option>-->
+        <!--<option>MC</option>-->
+        <!--<option>Amex</option>-->
+        <!--<option>PayPal</option>-->
+      <!--</select>-->
+    <!--</div>-->
+    <!--<div class="entry">-->
+      <!--&lt;!&ndash; from Slambook e.g.&ndash;&gt;-->
+      <!--<label>Favorite things?</label>-->
+      <!--<input type="checkbox" checked="{{favoriteThings['Visa']}}" id="Visa">-->
+      <!--<label for="Visa" class="andrews">Visa</label>-->
+      <!--<input type="checkbox" checked="{{favoriteThings['raindrops']}}" id="raindrops">-->
+      <!--<label for="raindrops" class="andrews">MC</label>-->
+      <!--<input type="checkbox" checked="{{favoriteThings['mittens']}}" id="mittens">-->
+      <!--<label for="mittens" class="andrews">PayPal</label>-->
+      <!--<input type="checkbox" checked="{{favoriteThings['kettles']}}" id="kettles">-->
+      <!--<label for="kettles" class="andrews">Stripe</label>-->
+    <!--</div>-->
   </template>
 </dom-module>

@@ -24,7 +24,7 @@ class DartCC extends PolymerElement {
 
   /// Constructor used to create instance of DartCC.
   DartCC.created() : super.created();
-
+    ///Check adding hostAttributes
    static const hostAttributes = const {
     'string-attribute': 'Value',
     'boolean-attribute': true,
@@ -32,7 +32,7 @@ class DartCC extends PolymerElement {
   };
 
   @property
-  String greeting = 'Hello! Please enter you CC details.';
+  String greeting = 'Hello! Please enter you CC details.';   //check binding
 
   factory DartCC() => document.createElement('dart-cc');
     // factory MyElement() => new Element.tag('my-element') as MyElement;

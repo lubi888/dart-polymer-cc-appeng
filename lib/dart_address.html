@@ -1,0 +1,35 @@
+<dom-module id="dart-address">
+  <style>
+    :host {
+    display: block;
+    }
+  </style>
+  <template>
+    <!-- <h3>CC layout</h3> -->
+    <div>{{greeting}}</div>
+    <!--<div>[[greeting]]</div> //check 2 way binding-->
+
+    <h5>Personal Contacts Widget</h5>
+    <div class="vertical-section">
+      <paper-input label="What is your name, if you please?" value="{{text}}"></paper-input>
+      <paper-input label="address?" value="{{nameAddress}}"></paper-input>
+      <gold-email-input auto-validate label="custom regex, needs to ends in .suffix"
+                        regex='^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+.suffix$'
+                        value="x@y.z ">
+      </gold-email-input>
+      <gold-phone-input
+              label="France phone number"
+              country-code="33"
+              phone-number-pattern="X-XX-XX-XX-XX"
+              auto-validate>
+      </gold-phone-input>
+      <gold-phone-input label="Valid US number" value="415-111-1111" auto-validate></gold-phone-input>
+      <gold-zip-input auto-validate label="zip code"></gold-zip-input>
+
+    <!--<div class="submitarea">-->
+      <!--<input type="submit" value="Submit" on-click="{{submitForm}}">-->
+      <!--<input type="reset"  value="Clear"  on-click="{{resetForm}}"> <br>-->
+    <!--</div>-->
+    <div>--------------------</div>   
+  </template>
+</dom-module>

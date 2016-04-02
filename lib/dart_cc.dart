@@ -33,9 +33,4 @@ class DartCC extends PolymerElement {
   String greeting = 'Hello! Please enter you CC details.';   //check binding
 
   factory DartCC() => document.createElement('dart-cc');
-    // factory MyElement() => new Element.tag('my-element') as MyElement;
-
-//  void ready() {
-//    text ="My element Dart - CC";
-//  }
 }

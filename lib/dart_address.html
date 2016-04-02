@@ -6,19 +6,18 @@
   </style>
   <template>
     <div>--------------------</div>
-
     <!-- <h3>CC layout</h3> -->
     <div>{{greeting}}</div>
     <!--<div>[[greeting]]</div> //check 2 way binding-->
-
     <h5>Personal Contacts Widget</h5>
 
     <div class="vertical-section">
       <paper-input label="What is your name, if you please?" value="{{text}}"></paper-input>
       <paper-input label="address?" value="{{nameAddress}}"></paper-input>
-      <gold-email-input auto-validate label="custom regex, needs to ends in .suffix"
-                        regex='^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+.suffix$'
-                        value="x@y.z ">
+      <!--floatingLabel=true-->
+      <gold-email-input auto-validate label="x.y@z, custom regex, needs to ends in .suffix"
+                        regex='^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+.suffix$'>
+                        <!--value="x@y.z ">-->
       </gold-email-input>
       <gold-phone-input
               label="France phone number"

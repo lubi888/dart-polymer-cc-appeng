@@ -8,6 +8,7 @@ import 'dart:html';
 import 'package:polymer/polymer.dart';
 import 'package:web_components/web_components.dart';
 
+import 'package:polymer_elements/paper_input.dart';
 import 'package:polymer_elements/paper_dropdown_menu.dart';
 import 'package:polymer_elements/paper_tabs.dart';
 import 'package:polymer_elements/paper_tab.dart';
